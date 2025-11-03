@@ -4,7 +4,7 @@ subtitle: " "
 author: "izi"
 avatar: "img/authors/leroy.png"
 image: "img/f.png"
-date:   2025-11-01
+date:   2025-10-30
 ---
 
 
