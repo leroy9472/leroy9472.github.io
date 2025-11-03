@@ -5,9 +5,9 @@ author: "izi"
 avatar: "img/authors/leroy.png"
 image: "img/e.png"
 date:   2025-10-31
+---
 
-
-## Education
+Education
 
 
 **2018.09 – 2022.06 · 太原理工大学 · 电子信息工程专业（本科）**  
