@@ -7,10 +7,6 @@ image: "img/a.png"
 date:   2025-11-02
 ---
 
-## 📱 联系我
-
-如果你想了解我的研究、合作或项目，欢迎通过以下方式联系我。
-
 
 ### 💬 微信
 <img src="img/01.png" alt="WeChat QR" width="260" style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
