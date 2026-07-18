@@ -4,7 +4,9 @@ _site/
 .sass-cache/
 .asset-cache/
 .bundle/
-vendor/
+# Bundler installs gems into ./vendor/bundle — ignore only the root
+# vendor directory, not _sass/vendor which holds theme SCSS dependencies.
+/vendor/
 Gemfile.lock
 
 .DS_Store
