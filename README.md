@@ -1,17 +1,35 @@
-# Jekyll Modern Blog
+# leroy9472.github.io
 
-A Simple, Clean and responsive modern blog for jekyll.
+Source for my personal academic homepage — **[leroy9472.github.io](https://leroy9472.github.io/)**.
 
-## [Live Demo](http://inded.github.io/Jekyll_modern-blog/)
+Built with [Jekyll](https://jekyllrb.com/) and deployed via GitHub Pages. The
+theme is adapted from
+[RayeRen/acad-homepage.github.io](https://github.com/RayeRen/acad-homepage.github.io),
+customized for a lighter layout, an indigo/amber palette, and small
+micro-interactions.
 
-## Attributions
-Based off of this [article from Codrops](http://tympanus.net/codrops/?p=24222)
-Using Sample images from [Fancy Crave](http://fancycrave.com/)
+## Local development
+
+```bash
+bundle install
+bundle exec jekyll serve
+# → http://127.0.0.1:4000
+```
+
+Requires Ruby 3.x. On Apple Silicon macOS, install a modern Ruby with
+`brew install ruby` and prepend it to `PATH`.
+
+## Layout
+
+- `_pages/about.md` — main content (About, Education, Publications, Internship, Contact).
+- `_config.yml` — site metadata + sidebar profile (name, avatar, links).
+- `_data/navigation.yml` — top nav items.
+- `_includes/` — layout partials (masthead, sidebar, footer, head).
+- `assets/css/main.scss` — theme + custom overrides (palette, typography, timeline, cards).
+- `assets/js/nav-active.js` — scroll-spy, reveal-on-scroll, greedy-nav workaround.
+- `img/`, `images/` — assets (avatar, QR codes, publication thumbnails, favicons).
 
 ## License
 
-Based off of this [Article on Codrops](http://tympanus.net/codrops/?p=24222)
-
-Created by Claudio Calautti for Codrops. Released under the [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html).
-
-Changes being that I made it jekyll ready and smushed the CSS together.
+Content © Zizhen Li. Template code retains the original
+[MIT license](./LICENSE) from acad-homepage.

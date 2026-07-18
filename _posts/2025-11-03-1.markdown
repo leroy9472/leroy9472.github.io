@@ -1,8 +1,0 @@
----
-title:  "还没想好 当相册用"
-subtitle: " "
-author: "izi"
-avatar: "img/authors/leroy.png"
-image: "img/b.png"
-date:   2025-11-03
----
