@@ -25,7 +25,7 @@ My research interests lie at **Human–AI Co-Creation for Game Design** and **LL
   </li>
   <li class="timeline-item">
     <div class="timeline-time">2022.09 – 2024.06</div>
-    <div class="timeline-main"><strong>M.S.–Ph.D. combined program in Artificial Intelligence</strong>, Nankai University. Advisor: <a href="https://ai.nankai.edu.cn/info/1033/5386.htm">Mingzhu Sun</a>.</div>
+    <div class="timeline-main"><strong>M.S.–Ph.D. combined program (M.S. years) in Artificial Intelligence</strong>, Nankai University. Advisor: <a href="https://ai.nankai.edu.cn/info/1033/5386.htm">Mingzhu Sun</a>.</div>
     <div class="timeline-note">Research in the <a href="https://romiol.nankai.edu.cn/">Robotic Micro-nano Operation Laboratory (ROMIOL)</a>: hand-built a two-photon microscope to provide vision for automated micromanipulation.</div>
     <div class="edu-tags"><span class="edu-tag">Optoelectronics</span><span class="edu-tag">Data Acquisition</span><span class="edu-tag">Machine Vision</span><span class="edu-tag">Automatic Control</span></div>
   </li>
