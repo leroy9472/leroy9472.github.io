@@ -118,8 +118,8 @@ $accent-hover    : #4338CA;                     /* indigo-700 */
 $accent-soft     : rgba(79, 70, 229, 0.08);
 $accent2         : #F59E0B;                     /* amber-500 — sparingly */
 $accent2-soft    : rgba(245, 158, 11, 0.10);
-/* Prose links use a deeper indigo for calmer, more legible body text */
-$link-color      : #3730A3;                     /* indigo-800 */
+/* Prose links use a much deeper indigo — calmer, less saturated */
+$link-color      : #2A2673;                     /* darker than indigo-800 */
 $link-hover      : $accent;                     /* brighten on hover */
 $page-bg         : #f6f5f1;                     /* warm off-white */
 $card-bg         : #ffffff;
@@ -357,7 +357,7 @@ a:focus-visible {
     ul li { margin-bottom: .4em; line-height: 1.65; }
 
     a {
-        color: $accent;
+        color: $link-color;
         text-decoration: none;
         background-image: linear-gradient(currentColor, currentColor);
         background-repeat: no-repeat;
@@ -367,7 +367,7 @@ a:focus-visible {
         transition: background-size .22s ease, color .15s ease;
 
         &:hover, &:focus {
-            color: $accent-hover;
+            color: $accent;
             background-size: 100% 1px;
             text-decoration: none;
         }
@@ -398,7 +398,7 @@ a:focus-visible {
 .timeline {
     list-style: none;
     padding: 0 0 0 20px;
-    margin: .4em 0 .2em;
+    margin: .25em 0 .1em;
     position: relative;
 
     /* Vertical spine as a soft indigo→amber gradient */
@@ -416,8 +416,8 @@ a:focus-visible {
 }
 .timeline-item {
     position: relative;
-    padding: 0 0 .7em 4px;
-    line-height: 1.4;
+    padding: 0 0 .4em 4px;
+    line-height: 1.35;
 
     &:last-child { padding-bottom: 0; }
 
@@ -426,7 +426,7 @@ a:focus-visible {
         content: "";
         position: absolute;
         left: -27px;
-        top: .45em;
+        top: .35em;
         width: 9px;
         height: 9px;
         border-radius: 50%;
@@ -438,19 +438,41 @@ a:focus-visible {
     font-size: .8em;
     font-weight: 600;
     letter-spacing: .01em;
-    color: $accent;
-    margin-bottom: .1em;
-    line-height: 1.35;
+    color: #B45309;                          /* darker amber, aligned with palette */
+    margin-bottom: .05em;
+    line-height: 1.3;
 }
 .timeline-main {
     color: #2c2c2c;
-    line-height: 1.45;
+    line-height: 1.4;
 }
 .timeline-note {
-    margin-top: .12em;
-    font-size: .88em;
+    margin-top: .08em;
+    font-size: .86em;
     color: #6a6a6a;
-    line-height: 1.45;
+    line-height: 1.4;
+}
+
+/* Low-key keyword tags under an education entry — deliberately quieter
+   than description text: smaller, gray, no accent color, no bold. */
+.edu-tags {
+    margin: .25em 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    .edu-tag {
+        display: inline-block;
+        padding: .08em .5em;
+        font-size: .72em;
+        font-weight: 400;
+        color: #8a8a8a;
+        background: #f3f2ee;
+        border: 1px solid #e6e5df;
+        border-radius: 3px;
+        line-height: 1.4;
+        white-space: nowrap;
+    }
 }
 
 /* Publications footnote line under the H1 — small, snug to the heading */

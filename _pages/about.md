@@ -26,18 +26,18 @@ My research interests lie at **Human–AI Co-Creation for Game Design** and **LL
   <li class="timeline-item">
     <div class="timeline-time">2022.09 – 2024.06</div>
     <div class="timeline-main"><strong>M.S.–Ph.D. combined program in Artificial Intelligence</strong>, Nankai University. Advisor: <a href="https://ai.nankai.edu.cn/info/1033/5386.htm">Mingzhu Sun</a>.</div>
-    <div class="timeline-note">Research in the <a href="https://romiol.nankai.edu.cn/">Micro/Nano Operation Robotics Lab</a>: hand-built a two-photon microscope to provide vision for automated micromanipulation.</div>
+    <div class="timeline-note">Research in the <a href="https://romiol.nankai.edu.cn/">Robotic Micro-nano Operation Laboratory (ROMIOL)</a>: hand-built a two-photon microscope to provide vision for automated micromanipulation.</div>
+    <div class="edu-tags"><span class="edu-tag">Optoelectronics</span><span class="edu-tag">Data Acquisition</span><span class="edu-tag">Machine Vision</span><span class="edu-tag">Automatic Control</span></div>
   </li>
   <li class="timeline-item">
     <div class="timeline-time">2018.09 – 2022.06</div>
     <div class="timeline-main"><strong>B.Eng. in Electronic Information Engineering</strong>, Taiyuan University of Technology.</div>
-    <div class="timeline-note">Member of the <a href="http://www.xiaoming-lab.com/">Xiaoming Lab</a>, working on sensors and electronic hardware.</div>
+    <div class="timeline-note">Member of the <a href="http://www.xiaoming-lab.com/">Xiaoming Lab</a>, working on electronic hardware.</div>
+    <div class="edu-tags"><span class="edu-tag">Sensors</span><span class="edu-tag">MCU / C</span><span class="edu-tag">LabVIEW</span></div>
   </li>
 </ol>
 
 # 📝 Publications
-
-<p class="pub-note"><sup>*</sup> indicates first author &nbsp;·&nbsp; <span class="pub-note-icon">📧</span> indicates corresponding author</p>
 
 <div class='paper-box'>
 <div class='paper-box-image'><div><div class="badge badge-arxiv">arXiv 2026</div><img src='images/publications/autobg.png' alt="AutoBG" width="100%"></div></div>
