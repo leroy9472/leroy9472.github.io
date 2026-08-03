@@ -595,6 +595,90 @@ a:focus-visible {
     }
 }
 
+/* ==========================================================================
+   Publications subsection headings and co-authored (compact) entries
+   ========================================================================== */
+
+.pub-subheading {
+    font-size: 1.02em;
+    font-weight: 600;
+    color: #1c1c1c;
+    margin: 1.4em 0 .55em;
+    padding-bottom: .2em;
+    letter-spacing: .01em;
+    border-bottom: 1px dashed $border-soft;
+}
+.pub-subheading:first-of-type { margin-top: .8em; }
+
+.coauth-list {
+    margin: .2em 0 .4em;
+    padding: 0;
+    list-style: none;
+    font-size: 0.92em;
+}
+
+.coauth-item {
+    padding: .55em 0;
+    border-bottom: 1px dotted #ececec;
+    line-height: 1.55;
+
+    &:last-child { border-bottom: none; }
+}
+
+.coauth-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: .5em;
+    margin: 0;
+}
+
+.coauth-venue {
+    display: inline-block;
+    flex: 0 0 auto;
+    padding: .1em .55em;
+    font-size: .68em;
+    font-weight: 600;
+    letter-spacing: .03em;
+    color: #4a4a4a;
+    background: #eef0f6;
+    border: 1px solid #dfe3ee;
+    border-radius: 999px;
+    white-space: nowrap;
+    line-height: 1.5;
+    vertical-align: 1px;
+}
+.coauth-venue-arxiv { color: #7a4a09; background: #fdf3e4; border-color: #f2e0bd; }
+.coauth-venue-conf  { color: #2b2678; background: #ecebfb; border-color: #d9d7f2; }
+
+.coauth-title {
+    font-weight: 600;
+    color: #1c1c1c;
+    line-height: 1.45;
+}
+.page__content .coauth-list a.coauth-title {
+    color: #1c1c1c;
+    &:hover, &:focus { color: $accent; }
+}
+
+.coauth-authors {
+    margin: .18em 0 0;
+    font-size: .92em;
+    color: #5a5a5a;
+    line-height: 1.5;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+
+    strong { color: #1c1c1c; }
+    sup    { font-size: .75em; margin-left: 1px; }
+}
+
+@media (max-width: 640px) {
+    .coauth-line { gap: .35em; }
+    .coauth-venue { font-size: .64em; }
+    .coauth-list { font-size: 0.9em; }
+}
+
 /* Keyword tags row — subtle light-gray chips */
 .pub-tags {
     margin: .35em 0 0;
